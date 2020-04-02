@@ -4,3 +4,10 @@ $('#form').submit(function(e) {
   // Prevent reload page
   e.preventDefault();
 });
+
+$('#form').submit(function(e) {
+  $('#comment').text($("#comment-input").val());
+
+  // Prevent reload page
+  e.preventDefault();
+});

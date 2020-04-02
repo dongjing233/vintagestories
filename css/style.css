@@ -30,10 +30,18 @@ html {
 }
 
 .window{
-    padding-top: 350px;
+    padding-top: 150px;
         height:600px;
     width:600px;
 
+}
+
+.reduce{
+    margin-top:-150px;
+}
+
+.reduce2{
+    margin-top:-200px;
 }
 
 iframe{
@@ -91,6 +99,8 @@ button{
     background-color: #49beb7;
     color:white;
     border:none;
+      border-radius: 0.4em;
+
 }
 
 
@@ -164,6 +174,7 @@ feedback::before {
 
 
 footer{
+    margin-top:300px;
     padding-top: 100px;
     color:#49beb7;
 }
@@ -172,11 +183,22 @@ footer{
         color:#49beb7;
 }
 
+.box{
+    max-width: 30%;
+    text-align:left;
+    background-color:F7F9ED;
+    padding:20px;
+    margin-bottom:50px;
+}
 
+.red{
+    color:red;
+}
 
 .form__input {
-  font-size: 2em;
-  margin-bottom: 2em;
+  border: 0.1px solid #d6d7d9;
+  font-size: 1.3em;
+  margin-bottom: 1em;
   border-bottom: 10px solid #d6d7d9;
   border-radius: 0.4em;
   background: #ebecec;

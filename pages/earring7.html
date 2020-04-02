@@ -57,10 +57,13 @@ body {
 
     <div id="section2">
     <center>
-    <div class="window">
+    <div class="window">        
+        <p>enable the website to use your camera!</p>
+        <p>go to the <strong><a href="fittingroom.html">Fitting Room</a></strong> to play with more effects!</p>
 <iframe src="https://editor.p5js.org/dongjing233/embed/_Nyg10ve" title="Posenet on Webcam" allow="microphone; camera" allowfullscreen="" width=100%; height="66%"></iframe>
           <br><br>
         <a href="#section1"  class="button" >information</a>  <a href="#section3"  class="button" >comments</a>
+        <a href="fittingroom.html"  class="button" >Fitting Room</a>
     <canvas id="defaultCanvas0" class="p5Canvas" width="1280" height="960" style="width: 640px; height: 480px;">
         </canvas>
     <video playsinline="" crossorigin="anonymous" width="640" height="480" style="width: 640px; height: 480px; display: none;"></video>
@@ -74,15 +77,22 @@ body {
 <br><br>
     <br><br>
     <br><br>
-    <br><br>
+
         <br><br>
-        <br><br>
-        <br><br>
+    
+            <div class="box"><p>Vic: I love this story. Your earring is so lovely and the color so unique. The motif is not commonly applied in jewelry. </p></div>
+
+        <div class="box"><p> <span id="name">Username</span>: <span id="comment">Comment</span></p></div>
+
+    
         <form action="javascript:void(0);" method="post" id="form">
-  <input class="form__input"  type="text" id="name-input" placeholder="Your name..." required autofocus />
+<!--            required autofocus-->
+              <input class="form__input"  type="text" id="name-input" placeholder="Your name..." />
+            <br>
+  <input class="form__input"  type="text" id="comment-input" placeholder="Your comment..."  />
+             <br>
   <button  type="submit">SEND</button>
 </form>
-<p><br /> Comment: <span id="name">Your comment</span></p>
 <br><br>
             <a class="button" href="#section1">information</a>  <a class="button" href="#section2" class="btn">try on</a>
         </center>
