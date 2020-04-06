@@ -29,6 +29,10 @@ html {
      cursor:url("../images/read.png"), auto;
 }
 
+.read2:hover{
+     cursor:url("../images/read2.png"), auto;
+}
+
 .window{
     padding-top: 150px;
         height:600px;
